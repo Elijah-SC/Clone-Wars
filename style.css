@@ -1,0 +1,81 @@
+:root {
+  --dark: #0f0f0f;
+  --light: #ffffff;
+  --green: #7cc576;
+}
+
+.hero-image {
+  background-image: url(imgs/hero-image1.jpg);
+  min-height: 90vh;
+  background-size: cover;
+
+}
+
+.img-cards {
+  padding: 1em;
+  box-shadow: 0px 0px 7px #48454541;
+}
+
+.content-icons {
+  font-size: 3em;
+  color: var(--green)
+}
+
+.sub-p {
+  color: #000000b3;
+}
+
+.check-mark {
+  color: var(--green);
+}
+
+.lighter {
+  color: #00000050;
+}
+
+.nav-logo {
+  font-size: 4em;
+  padding-left: 2em;
+}
+
+.hero-logo {
+  font-size: 20em;
+  line-height: 1em;
+  margin-top: 10em;
+
+}
+
+.nav-btn {
+  padding: .5em;
+  border-radius: 0px;
+}
+
+.nav-btn:hover {
+  color: var(--green);
+  box-shadow: 0px 2px 0px 0px var(--green);
+
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  background-color: var(--light);
+  min-height: 10vh;
+  box-shadow: 0px 2px 5px var(--dark);
+}
+
+.get-started {
+  padding: 1em 2em;
+  border-radius: 4px;
+  background-color: var(--green);
+  color: #ffffff;
+}
+
+.get-started:hover {
+
+  background-color: #ffffff;
+  color: var(--green);
+  border: 3px solid var(--green);
+}
