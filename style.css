@@ -35,7 +35,12 @@
 
 .nav-logo {
   font-size: 4em;
-  padding-left: 2em;
+}
+
+@media (min-width:768px) {
+  .nav-logo {
+    padding-left: 2em;
+  }
 }
 
 .hero-logo {
@@ -56,8 +61,36 @@
 
 }
 
+footer {
+  background-image: url(imgs/office.jpg);
+}
+
+.foot-cont {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.foot-logo {
+  font-size: 10em
+}
+
+.hover-divs {
+  padding: 1em;
+  border-radius: 4px;
+}
+
+.hover-divs:hover {
+  box-shadow: 0px 0px 7px var(--dark);
+}
+
+.hover-divs:hover h3 {
+  color: var(--green);
+}
+
+.hamburger {}
+
 header {
   text-align: center;
+  position: relative;
 }
 
 nav {

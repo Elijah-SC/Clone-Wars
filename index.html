@@ -14,10 +14,10 @@
 <body>
   <nav class="sticky-top container-fluid">
     <section class="row justify-content-between align-items-center">
-      <div class="col-1">
+      <div class="col-12 col-md-1 text-center">
         <span class="mdi mdi-horse-variant nav-logo"></span>
       </div>
-      <div class="col-8">
+      <div class="col-8 d-none d-md-inline">
         <section class="text-end">
           <button class=" nav-btn btn">HOME</button>
           <button class=" nav-btn btn">ABOUT</button>
@@ -28,6 +28,20 @@
           <button class=" nav-btn btn">DROP DOWN</button>
           <button class=" nav-btn btn">CONTACT</button>
         </section>
+      </div>
+      <div class="hamburger d-md-none">
+        <div class="col-12 col-md-8">
+          <section class="row">
+            <button class="col-12 nav-btn btn">HOME</button>
+            <button class="col-12 nav-btn btn">ABOUT</button>
+            <button class="col-12 nav-btn btn">SERVICES</button>
+            <button class="col-12 nav-btn btn">PORTFOLIO</button>
+            <button class="col-12 nav-btn btn">TEAM</button>
+            <button class="col-12 nav-btn btn">PRICING</button>
+            <button class="col-12 nav-btn btn">DROP DOWN</button>
+            <button class="col-12 nav-btn btn">CONTACT</button>
+          </section>
+        </div>
       </div>
     </section>
   </nav>
@@ -51,10 +65,10 @@
       </section>
 
       <section class="row pt-5">
-        <div class="col">
+        <div class="col-md-6">
           <img src="imgs/meeting.png" alt="meeting" class="img-fluid img-cards">
         </div>
-        <div class="col">
+        <div class="col-md-6 pt-4">
           <h2>Lorem ipsum dolor sit amet.</h2>
           <p class="sub-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquam consequatur quae
             unde. Pariatur eveniet sapiente consequatur esse quibusdam vero dolor aut unde. Non temporibus sed tempora
@@ -86,52 +100,67 @@
       </section>
 
       <section class="row pt-5">
-        <div class="col">
+        <div class="col-md-6 order-3 order-md-2">
           <section class="row">
             <div class="col-2 text-end">
               <i class="mdi mdi-list-box-outline content-icons"></i>
+            </div>
+            <div class="col-10">
+              <h3>Text</h3>
+              <p class="sub-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo adipisci quos amet.
+                Illo, veritatis atque.</p>
+            </div>
+            <div class="col-2 text-end">
               <i class="mdi mdi-cube-outline content-icons"></i>
+            </div>
+            <div class="col-10">
+              <h3>Text</h3>
+              <p class="sub-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo adipisci quos amet.
+                Illo, veritatis atque.</p>
+            </div>
+            <div class="col-2 text-end">
               <i class="mdi mdi-image-multiple-outline content-icons"></i>
+            </div>
+            <div class="col-10">
+              <h3>Text</h3>
+              <p class="sub-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo adipisci quos amet.
+                Illo, veritatis atque.</p>
+            </div>
+            <div class="col-2 text-end">
               <i class="mdi mdi-shield-outline content-icons"></i>
             </div>
-            <div class="col">
-              <h3>Text</h3>
-              <p class="sub-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo adipisci quos amet.
-                Illo, veritatis atque.</p>
-              <h3>Text</h3>
-              <p class="sub-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo adipisci quos amet.
-                Illo, veritatis atque.</p>
-              <h3>Text</h3>
-              <p class="sub-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo adipisci quos amet.
-                Illo, veritatis atque.</p>
+            <div class="col-10">
               <h3>Text</h3>
               <p class="sub-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo adipisci quos amet.
                 Illo, veritatis atque.</p>
             </div>
           </section>
         </div>
-        <div class="col">
-          <img src="imgs/typing.png" alt="typing" class="img-cards">
+        <div class="col-md-6 order-2 order-md-3 pb-4">
+          <img src="imgs/typing.png" alt="typing" class="img-cards img-fluid">
         </div>
       </section>
     </div>
     <div class="container">
       <section class="row">
-        <div class="col">image</div>
-        <div class="col">
+        <div class="col-md-6">
+          <img src="https://img.freepik.com/premium-vector/stacks-coins-money-bag-vector_39663-62.jpg" alt="cash money"
+            class="img-fluid">
+        </div>
+        <div class="col-md-6">
           <div class="hover-divs">
             <h3>Lorem ipsum dolor sit amet.</h3>
             <p>All the other garbage</p>
           </div>
-          <div>
+          <div class="hover-divs">
             <h3>Lorem ipsum dolor sit amet.</h3>
             <p>All the other garbage</p>
           </div>
-          <div>
+          <div class="hover-divs">
             <h3>Lorem ipsum dolor sit amet.</h3>
             <p>All the other garbage</p>
           </div>
-          <div>
+          <div class="hover-divs">
             <h3>Lorem ipsum dolor sit amet.</h3>
             <p>All the other garbage</p>
           </div>
@@ -139,17 +168,22 @@
       </section>
     </div>
   </main>
-  <footer>
-    <span class="mdi mdi-horse-variant"></span>
-    <h1>Knight</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus quam aliquid nostrum voluptates vero error
-      doloribus ipsum aut iste molestias magnam nobis reprehenderit expedita, obcaecati dolorem consectetur deserunt.
-      Officiis, nihil.
-    </p>
-    <form>
-      <input type="email" placeholder="enter email here">
-      <button>Subscribe</button>
-    </form>
+  <footer class="container-fluid">
+    <section class="row foot-cont justify-content-center text-light pb-4">
+      <div class="col-md-7 text-center">
+        <span class="mdi mdi-horse-variant foot-logo"></span>
+        <h1>Knight</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus quam aliquid nostrum voluptates vero error
+          doloribus ipsum aut iste molestias magnam nobis reprehenderit expedita, obcaecati dolorem consectetur
+          deserunt.
+          Officiis, nihil.
+        </p>
+        <form>
+          <input type="email" placeholder="enter email here">
+          <button>Subscribe</button>
+        </form>
+      </div>
+    </section>
   </footer>
 </body>
 
